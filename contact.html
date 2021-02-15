@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Qiqi's Personal Page</title>
+		<meta name="author" content="Qiq Chen" />
+		<meta
+			name="description"
+			content="This is Qiqi Chen's personal home page"
+		/>
+		<link rel="stylesheet" href="css/style.css" />
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+			crossorigin="anonymous"
+		/>
+	</head>
+	<body>
+		<div class="container">
+			<nav class="navbar navbar-expand-lg navbar-light bg-light">
+				<div class="container-fluid">
+					<div class="collapse navbar-collapse" id="navbarNav">
+						<ul class="navbar-nav">
+							<li class="nav-item">
+								<a class="nav-link active" href="index.html">Home</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="about.html">About Me</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="experience.html"
+									>Experience</a
+								>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="contact.html">Contact</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+			<!-- end of nav bar -->
+
+			<div class="transbox">
+				<h2 class="contact">Contact Form</h2>
+
+				<form
+					id="contact-form"
+					class="contact-form"
+					data-toggle="validator"
+				>
+					<div class="row">
+						<div class="form-group col-12 col-md-6">
+							<input
+								type="text"
+								class="input input__icon form-control"
+								placeholder="Full name"
+								required="required"
+								oninvalid="setCustomValidity('Fill in the field')"
+								onkeyup="setCustomValidity('')"
+							/>
+							<div class="help-block"></div>
+						</div>
+
+						<div class="form-group col-12 col-md-6">
+							<input
+								type="email"
+								class="input input__icon form-control"
+								placeholder="Email address"
+								required="required"
+								oninvalid="setCustomValidity('Email is incorrect')"
+								onkeyup="setCustomValidity('')"
+							/>
+							<div class="help-block"></div>
+						</div>
+
+						<div class="form-group col-12 col-md-12">
+							<textarea
+								class="textarea form-control"
+								placeholder="Your Message"
+								rows="4"
+								required="required"
+								oninvalid="setCustomValidity('Fill in the field')"
+								onkeyup="setCustomValidity('')"
+							></textarea>
+							<div class="help-block"></div>
+						</div>
+					</div>
+					<!-- end of first row -->
+
+					<div class="row">
+						<div class="col-md-10 text-center text-md-left"></div>
+						<div class="col-md-2 text-md-right">
+							<button type="submit" class="btn">
+								<i class="fas fa-paper-plane"></i> Send Message
+							</button>
+						</div>
+					</div>
+					<!-- end of second row -->
+				</form>
+			</div>
+			<!-- end of transbox -->
+		</div>
+
+		<script src="./js/main.js"></script>
+
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://kit.fontawesome.com/d6195fd880.js"
+			crossorigin="anonymous"
+		></script>
+
+		<script src="./js/main.js"></script>
+	</body>
+</html>

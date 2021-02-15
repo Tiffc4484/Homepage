@@ -396,8 +396,8 @@ select,
 }
 
 .galary_highlight {
-	width: 80%;
 	height: 50%;
+	object-fit: cover;
 }
 
 section {

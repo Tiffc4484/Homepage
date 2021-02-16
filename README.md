@@ -3,7 +3,8 @@
 **Author: Qiqi Chen**
 
 ### Description
-HTML/CSS and Javascript for a personal portfolio website.
+HTML/CSS and Javascript for a personal portfolio website for a web development course project1, you can find the course link below. The project objective was to create a personal website with your skills, courses, projects, hobbies, etc. The website follows W3C rules. 
+
 My website contains four pages, including Home, about, experience and contact.
 Below is the preview of my homepage.
 

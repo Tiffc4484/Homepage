@@ -8,9 +8,9 @@ HTML/CSS and Javascript for a personal portfolio website for a web development c
 My website contains four pages, including Home, about, experience and contact.
 Below is the preview of my homepage.
 
-* Classlink: https://johnguerra.co/classes/webDevelopment_spring_2021/
-* Demo: https://www.youtube.com/watch?v=2mVkQb_eINo&feature=youtu.be
-* Slides:https://docs.google.com/presentation/d/1K3Qok4k07iu-5-lyaM6AA2tZsBSl6mkZ0u5SzPVjiek/edit#slide=id.gbd60bbb656_0_24
+* [Classlink](https://johnguerra.co/classes/webDevelopment_spring_2021/)
+* [Demo](https://www.youtube.com/watch?v=2mVkQb_eINo&feature=youtu.be)
+* [Slides](https://docs.google.com/presentation/d/1K3Qok4k07iu-5-lyaM6AA2tZsBSl6mkZ0u5SzPVjiek/edit#slide=id.gbd60bbb656_0_24)
 
 ### Preview 
 

@@ -9,11 +9,11 @@ body {
 	padding: 0;
 }
 
-.galary_description p {
+.gallery_description p {
 	font-family: fantasy;
 }
 
-.galary_description h1 {
+.gallery_description h1 {
 	font-family: Roboto;
 }
 
@@ -413,13 +413,13 @@ section {
 	align-items: center;
 }
 
-.galary_description {
+.gallery_description {
 	width: 50%;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	background-color: #ffeecc;
+	background-color: #93DFFE;
 }
 
 .preview {
